@@ -19,8 +19,9 @@ function Login() {
         <input type="text" 
         value ={username}
         placeholder='username'
-        onChange={(e) => setusername(e.target.value)} />
-        
+        onChange={(e) => setusername(e.target.value)}
+         />
+
         <input type="text"
         value ={password}
         placeholder='password' 
